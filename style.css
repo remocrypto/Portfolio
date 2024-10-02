@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #c1292e;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+
+body {
+    background-color: bisque;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+.competences {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    width: 20em;
+    height: auto;
+
+    border: 2px solid;
+    border-color: aliceblue;
+    border-radius: 5px 20px;
+
+    margin: 40px;
+}
+
+/* gris/bleu : #333745 bleu ciel : #8ec3dc rouge : #891800 */
+
+@font-face {
+    font-family: Poppins;
+    src: url(font/Poppins);
+}
+
+* {
+    font-family: Poppins;
+}
+
+.header-style {
+    background-color: #4890E0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0px 0px 10px #000000;
+    width: auto;
+    height: 90px;
+
+    gap: 60px;
+}
+
+.texte-header-style {
+    color: #ffffff;
+    text-shadow: 0px 0px 0px #ffffff;
+    font-family: poppins;
+}
+
+.bouton-texte-header {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.bouton-texte-header:hover {
+    text-decoration: underline;
+    text-shadow: 0px 0px 3px #ffffff;
+
+}
+
+
+.logo-style {
+    height: 60px;
+    width: 60px;
+    margin: 5px 0px;
+}
+
+.nav-style {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.nav-style a {
+    font-family: Poppins ExtraBold;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 0px 0px 55px #ffffff;
+    text-decoration: none;
+}
+
+.nav-style a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin: 0;
+    margin-top: 100px;
+    padding: 30;
+    padding-bottom: 5;
+
+    background-color: #c1292e;
+    color: #ffe4c4;
+}
+
+.footer-nav-rapide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 500px;
+}
+
+.div1-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+}
+
+.div2-footer p {
+    color: #ffe4c4;
+}
+
+.div1-footer a {
+    color: #ffe4c4;
+    text-decoration: none;
+}
+
+.div1-footer a:hover {
+    text-decoration: underline;
+}
+
+.div2-footer a {
+    color: #ffe4c4;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.div2-footer a:hover {
+    text-decoration: none;
+}
+
+.droits-footer {
+    margin-top: 50;
+    text-align: center;
+    font-size: 10pt;
+    font-weight: 200;
+}
